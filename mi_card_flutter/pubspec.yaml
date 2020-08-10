@@ -1,0 +1,42 @@
+name: mi_card
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/myphoto.jpg
+
+  fonts:
+  - family: Lemonada
+    fonts:
+    - asset: fonts/Lemonada-VariableFont_wght.ttf
+
+  - family: Source-Sans-Pro
+    fonts:
+      - asset: fonts/SourceSansPro-Light.ttf
+
+  - family: Roboto Mono
+    fonts:
+      - asset: fonts/RobotoMono-VariableFont_wght.ttf
+
+
+  - family: Sora
+    fonts:
+      - asset: fonts/Sora-VariableFont_wght.ttf
